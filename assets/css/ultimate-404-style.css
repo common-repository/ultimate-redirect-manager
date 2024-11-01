@@ -1,0 +1,102 @@
+/* Tab wrapper */
+.ultimate-404-wrap{
+    margin: 20px;
+}
+.ultimate-404-wrap .nav-tab-wrapper {
+    margin-bottom: 20px;
+    border-bottom: none;
+    display: flex;
+    flex-flow: wrap;
+    gap: 10px;
+}
+
+/* Tab links */
+.ultimate-404-nav-tab {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+.ultimate-404-nav-tab:hover,.ultimate-404-nav-tab.nav-tab-active  {
+    background-color: #16acac;
+    color: #fff;
+}
+
+/* Tab content */
+.ultimate-404-tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* Only show active tab content */
+.ultimate-404-tab-content.active {
+    display: block;
+}
+
+/*ULTIMATE PRO TABS*/
+/* Style for the pricing table */
+.ultimate-404-pricing-table {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.ultimate-404-pricing-column {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ultimate-404-pricing-column h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.ultimate-404-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ultimate-404-pricing-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ultimate-404-pricing-column ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.ultimate-404-pricing-column ul li .dashicons {
+    margin-right: 5px;
+    color: #00b894; /* Change color as needed */
+}
+
+.ultimate-404-popup-button {
+    margin-top: 20px;
+    margin-top: 20px;
+    border: none;
+    padding: 0;
+}
+
+.ultimate-404-popup-button a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #00b894; /* Change color as needed */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.ultimate-404-popup-button a:hover {
+    background-color: #00796b; /* Change color as needed */
+}
